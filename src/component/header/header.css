@@ -1,0 +1,31 @@
+.menu {
+    height: 60px;
+    color: white;
+    
+    position: relative;
+    
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0 auto;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+}
+
+.menu li {
+
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.menu li:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
