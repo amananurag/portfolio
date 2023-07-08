@@ -19,3 +19,10 @@
   .button:hover {
     background-color: lightcoral;
   }
+
+  @media (max-width: 480px) {
+    .button {
+      padding: 15px 30px;
+      font-size: 14px;
+    }
+  }
