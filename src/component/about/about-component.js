@@ -7,10 +7,10 @@ function About () {
         <div className="about">
             <p>About {'/>'}</p>
         
-        <div style={{color: 'white'}}>
+        
             
-            <img src={aboutImg} alt='about' width='100%' height='100%'/>
-             </div>
+            <img src={aboutImg} style={{marginTop: '20px'}}alt='about' width='100%' height='100%'/>
+            
              </div>
         </>
     )

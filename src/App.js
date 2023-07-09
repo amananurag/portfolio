@@ -1,19 +1,19 @@
 import './App.css';
-import Login from './component/login/login-component';
-import Example from './component/example/example-component';
 import Header from './component/header/header-component';
-import Introduction from './component/introduction/introduction-component';
 import About from './component/about/about-component';
-import Contact from './component/contact/contact-component';
+import Socials from './component/socials/socials-component';
 import Footer from './component/footer/footer-component';
+import {ChakraProvider} from '@chakra-ui/react';
 function App() {
   return (
     <div className="App">
-      
+      <ChakraProvider>
       <Header />
+      
       <About />
-      <Contact />
+      <Socials />
       <Footer />
+      </ChakraProvider>
     </div>
   );
 }

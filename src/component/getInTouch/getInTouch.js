@@ -1,16 +1,11 @@
 
 import './getInTouch.css'
-
+import { Button } from '@chakra-ui/react'
 function GetInTouch () {
     return (
-
         <div className="get-in-touch">
-        <a href="#" className="button">
-            <i className="fas fa-envelope"></i>
-            GET IN TOUCH
-        </a>
+            <Button colorScheme='whiteAlpha'>GET IN TOUCH</Button>
         </div>
-
     )
 
 }
