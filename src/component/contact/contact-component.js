@@ -12,19 +12,19 @@ function Contact() {
                 </div>
                 <div className='platform'>
                     <div>
-                        <i class="fab fa-linkedin fa-2x"></i>
+                        <i className="fab fa-linkedin fa-2x"></i>
                         <a href="https://www.linkedin.com/in/amananurag/">@amananurag</a>
                     </div>
                     <div>
-                        <i class="fab fa-github fa-2x"></i>
+                        <i className="fab fa-github fa-2x"></i>
                         <a href="https://github.com/amananurag">@amananurag</a>
                     </div>
                     <div>
-                        <i class="fab fa-medium fa-2x"></i>
+                        <i className="fab fa-medium fa-2x"></i>
                         <a href="https://medium.com/@amananurag">@amananurag</a>
                     </div>
                     <div>
-                        <i class="fab fa-twitter fa-2x"></i>
+                        <i className="fab fa-twitter fa-2x"></i>
                         <a href="https://twitter.com/amananurag">@amananurag</a>
                     </div>
                     

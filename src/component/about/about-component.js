@@ -1,4 +1,5 @@
 import './about.css';
+import aboutImg from './../../assets/about-new.png';
 function About () {
 
     return (
@@ -8,7 +9,7 @@ function About () {
         
         <div style={{color: 'white'}}>
             
-            <img src='about-new.png' alt='about' width='100%' height='100%'/>
+            <img src={aboutImg} alt='about' width='100%' height='100%'/>
              </div>
              </div>
         </>

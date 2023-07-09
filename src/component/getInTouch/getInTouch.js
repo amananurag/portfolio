@@ -4,9 +4,9 @@ import './getInTouch.css'
 function GetInTouch () {
     return (
 
-        <div class="get-in-touch">
-        <a href="#" class="button">
-            <i class="fas fa-envelope"></i>
+        <div className="get-in-touch">
+        <a href="#" className="button">
+            <i className="fas fa-envelope"></i>
             GET IN TOUCH
         </a>
         </div>
